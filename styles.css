@@ -45,14 +45,31 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto minmax(220px, 1fr);
   align-items: center;
-  justify-content: space-between;
   gap: 24px;
-  padding: 16px clamp(20px, 5vw, 72px);
+  min-height: 96px;
+  padding: 20px clamp(20px, 5vw, 72px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   background: rgba(7, 27, 51, 0.96);
   backdrop-filter: blur(18px);
+}
+
+.header-logo {
+  display: flex;
+  width: clamp(270px, 26vw, 405px);
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.header-logo img {
+  display: block;
+  width: 100%;
+  max-height: 72px;
+  object-fit: contain;
 }
 
 .brand {
@@ -99,6 +116,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  justify-self: end;
   gap: 8px 18px;
   color: #ffd21f;
   font-size: 14px;
@@ -672,6 +690,19 @@ footer a::after {
   background: var(--forest);
 }
 
+.closing-logo {
+  display: flex;
+  justify-content: center;
+  padding: 12px clamp(20px, 5vw, 72px) 10px;
+  background: #fff;
+}
+
+.closing-logo img {
+  display: block;
+  width: min(290px, 52vw);
+  height: auto;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -686,6 +717,10 @@ footer p {
 }
 
 @media (max-width: 960px) {
+  .header-logo {
+    display: none;
+  }
+
   .hero,
   .intro-band,
   .split,

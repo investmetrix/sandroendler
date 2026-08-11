@@ -1,7 +1,7 @@
 window.ARTICLES = [
   {
     title: "Do You Know What Your Business Is Worth? Why Business Valuation Matters More Than You Think",
-    source: "Original",
+    source: "Beyond The Numbers",
     type: "original",
     date: "Aug 2026",
     summary:
