@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sandro-articles-page
+    runtime: static
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false

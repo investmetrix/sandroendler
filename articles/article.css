@@ -1,0 +1,158 @@
+.article-page {
+  padding: clamp(48px, 7vw, 86px) clamp(20px, 5vw, 72px);
+}
+
+.article-shell {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: clamp(26px, 5vw, 52px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.article-shell h1 {
+  margin-top: 18px;
+  font-size: clamp(28px, 4.2vw, 50px);
+}
+
+.article-shell h2 {
+  margin-top: 38px;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.article-byline {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.article-lead {
+  color: var(--blue);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.article-hero-image {
+  display: block;
+  width: 100%;
+  max-height: 440px;
+  margin: 26px 0;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.article-shell ul {
+  margin: 0 0 22px;
+  padding-left: 24px;
+  color: var(--muted);
+}
+
+.article-shell li {
+  margin-bottom: 8px;
+}
+
+.article-callout {
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  background: #edf8ff;
+  color: var(--navy);
+  padding: 16px 18px;
+  font-weight: 900;
+}
+
+.article-site-header .brand,
+.article-site-header nav a {
+  color: inherit;
+}
+
+.brainz-reader-page {
+  background: #fff;
+}
+
+.brainz-reader {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: var(--blue);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.reader-author {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.reader-author img {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+.reader-author h2 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(28px, 4vw, 38px);
+}
+
+.reader-author p {
+  margin: 4px 0 0;
+  color: var(--ink);
+  font-size: 20px;
+}
+
+.article-kicker {
+  margin: 0 0 12px;
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.brainz-reader h1 {
+  max-width: 940px;
+  margin: 0 0 18px;
+  font-size: clamp(27px, 3.85vw, 48px);
+  line-height: 0.98;
+}
+
+.reader-hero-image {
+  display: block;
+  width: 100%;
+  max-height: 620px;
+  margin: 34px 0;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+.reader-note {
+  max-width: 760px;
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+
+.reader-note h2 {
+  margin-top: 0;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+@media (max-width: 620px) {
+  .reader-author {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-author img {
+    width: 74px;
+    height: 74px;
+  }
+}
