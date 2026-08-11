@@ -718,7 +718,15 @@ footer p {
 
 @media (max-width: 960px) {
   .header-logo {
-    display: none;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: center;
+    width: min(320px, 72vw);
+    height: 56px;
+  }
+
+  .header-logo img {
+    max-height: 56px;
   }
 
   .hero,
@@ -735,11 +743,34 @@ footer p {
 }
 
 @media (max-width: 680px) {
-  .site-header,
+  .site-header {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 14px 18px;
+    padding: 18px clamp(18px, 5vw, 28px);
+  }
+
   .section-heading,
   footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .site-header .brand {
+    min-width: 0;
+  }
+
+  .site-header nav {
+    justify-self: end;
+  }
+
+  .header-logo {
+    width: min(300px, 76vw);
+    height: 52px;
+  }
+
+  .header-logo img {
+    max-height: 52px;
   }
 
   nav {
