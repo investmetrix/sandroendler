@@ -230,6 +230,11 @@ h3 {
   color: var(--gold);
 }
 
+.hero-actions .button {
+  background: var(--gold);
+  color: var(--navy);
+}
+
 .button:hover,
 .filter:hover {
   transform: translateY(-1px);
@@ -355,6 +360,12 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
+}
+
+.article-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
 }
 
 .article-card {
