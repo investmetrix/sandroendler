@@ -1,5 +1,9 @@
 const articleGrid = document.querySelector("#articleGrid");
 const filters = document.querySelectorAll(".filter");
+const articleToggle = document.querySelector("#articleToggle");
+const initialArticleCount = 3;
+let currentArticleFilter = "all";
+let showingAllArticles = false;
 
 window.ARTICLE_IMAGES = {
   "Do You Know What Your Business Is Worth? Why Business Valuation Matters More Than You Think":
@@ -57,7 +61,9 @@ window.ARTICLE_IMAGES = {
 const articleImages = window.ARTICLE_IMAGES;
 
 function renderArticles(filter = "all") {
+  currentArticleFilter = filter;
   const articles = window.ARTICLES.filter((article) => filter === "all" || article.type === filter);
+  const visibleArticles = showingAllArticles ? articles : articles.slice(0, initialArticleCount);
 
   if (!articles.length) {
     articleGrid.innerHTML = `
@@ -66,10 +72,13 @@ function renderArticles(filter = "all") {
         <p>New articles published directly by Sandro Endler will appear here.</p>
       </article>
     `;
+    if (articleToggle) {
+      articleToggle.hidden = true;
+    }
     return;
   }
 
-  articleGrid.innerHTML = articles
+  articleGrid.innerHTML = visibleArticles
     .map(
       (article, index) => `
         <article class="article-card ${article.featured ? "featured" : ""}">
@@ -98,6 +107,11 @@ function renderArticles(filter = "all") {
       `
     )
     .join("");
+
+  if (articleToggle) {
+    articleToggle.hidden = articles.length <= initialArticleCount;
+    articleToggle.textContent = showingAllArticles ? "Show fewer articles" : "Read more articles";
+  }
 }
 
 if (articleGrid) {
@@ -105,9 +119,17 @@ if (articleGrid) {
     button.addEventListener("click", () => {
       filters.forEach((item) => item.classList.remove("active"));
       button.classList.add("active");
+      showingAllArticles = false;
       renderArticles(button.dataset.filter);
     });
   });
+
+  if (articleToggle) {
+    articleToggle.addEventListener("click", () => {
+      showingAllArticles = !showingAllArticles;
+      renderArticles(currentArticleFilter);
+    });
+  }
 
   renderArticles();
 }
