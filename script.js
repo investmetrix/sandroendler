@@ -6,6 +6,8 @@ let currentArticleFilter = "all";
 let showingAllArticles = false;
 
 window.ARTICLE_IMAGES = {
+  "The Profit Gap and Value Gap: Two Numbers Every Business Owner Should Know":
+    "https://images.unsplash.com/photo-1722503281167-7d4da1dd6ee6?auto=format&fit=crop&fm=jpg&q=80&w=1200",
   "Do You Know What Your Business Is Worth? Why Business Valuation Matters More Than You Think":
     "assets/business-valuation-buildings.jpg",
   "Why Most Businesses Are Never Truly Ready for Growth":
