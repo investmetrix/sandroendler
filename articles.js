@@ -3,7 +3,7 @@ window.ARTICLES = [
     title: "The Profit Gap and Value Gap: Two Numbers Every Business Owner Should Know",
     source: "Beyond The Numbers",
     type: "original",
-    date: "Sep 2026",
+    date: "2026",
     summary:
       "How the Profit Gap and Value Gap help owners connect financial performance, enterprise value, and long-term transition goals.",
     url: "articles/the-profit-gap-and-value-gap.html",
@@ -13,7 +13,7 @@ window.ARTICLES = [
     title: "Do You Know What Your Business Is Worth? Why Business Valuation Matters More Than You Think",
     source: "Beyond The Numbers",
     type: "original",
-    date: "Aug 2026",
+    date: "2026",
     summary:
       "Business valuation is more than a number. It is a strategic tool for understanding value drivers, risk, and long-term enterprise value.",
     url: "articles/do-you-know-what-your-business-is-worth.html",
