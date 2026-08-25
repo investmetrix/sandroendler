@@ -42,6 +42,14 @@
   object-fit: cover;
 }
 
+.article-hero-image[src$="individualism.png"],
+.article-hero-image[src$="082526_article.png"] {
+  height: min(72vh, 620px);
+  max-height: none;
+  object-fit: contain;
+  background: #f5f1e8;
+}
+
 .article-shell ul {
   margin: 0 0 22px;
   padding-left: 24px;
