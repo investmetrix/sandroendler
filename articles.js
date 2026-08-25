@@ -1,5 +1,15 @@
 window.ARTICLES = [
   {
+    title: "If Your Business Cannot Operate Without You, What Is It Really Worth?",
+    source: "Beyond The Numbers",
+    type: "original",
+    date: "2026",
+    summary:
+      "Why owner dependency can reduce business value, increase operational risk, and limit transferability even when a company is profitable.",
+    url: "articles/if-your-business-cannot-operate-without-you.html",
+    featured: true
+  },
+  {
     title: "The Profit Gap and Value Gap: Two Numbers Every Business Owner Should Know",
     source: "Beyond The Numbers",
     type: "original",
@@ -7,7 +17,7 @@ window.ARTICLES = [
     summary:
       "How the Profit Gap and Value Gap help owners connect financial performance, enterprise value, and long-term transition goals.",
     url: "articles/the-profit-gap-and-value-gap.html",
-    featured: true
+    featured: false
   },
   {
     title: "Do You Know What Your Business Is Worth? Why Business Valuation Matters More Than You Think",
