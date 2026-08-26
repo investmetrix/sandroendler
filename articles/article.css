@@ -43,7 +43,8 @@
 }
 
 .article-hero-image[src$="individualism.png"],
-.article-hero-image[src$="082526_article.png"] {
+.article-hero-image[src$="082526_article.png"],
+.article-hero-image.contain-image {
   height: min(72vh, 620px);
   max-height: none;
   object-fit: contain;
