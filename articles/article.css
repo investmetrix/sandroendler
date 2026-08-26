@@ -155,21 +155,6 @@
   font-size: clamp(28px, 4vw, 40px);
 }
 
-.footer-logo {
-  display: block;
-  flex: 0 0 100%;
-  width: min(290px, 52vw);
-  height: auto;
-  margin: 0 auto 20px;
-}
-
-footer {
-  align-items: center;
-  flex-wrap: wrap;
-  row-gap: 18px;
-  padding-top: 30px;
-}
-
 @media (max-width: 620px) {
   .reader-author {
     grid-template-columns: 1fr;
