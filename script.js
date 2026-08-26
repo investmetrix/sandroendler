@@ -7,7 +7,7 @@ let showingAllArticles = false;
 
 window.ARTICLE_IMAGES = {
   "If Your Business Cannot Operate Without You, What Is It Really Worth?":
-    "assets/individualism.gif",
+    "assets/individualism.png",
   "The Profit Gap and Value Gap: Two Numbers Every Business Owner Should Know":
     "https://images.unsplash.com/photo-1722503281167-7d4da1dd6ee6?auto=format&fit=crop&fm=jpg&q=80&w=1200",
   "Do You Know What Your Business Is Worth? Why Business Valuation Matters More Than You Think":
@@ -64,6 +64,10 @@ window.ARTICLE_IMAGES = {
 
 const articleImages = window.ARTICLE_IMAGES;
 
+function getArticleImage(article) {
+  return article.image || articleImages[article.title];
+}
+
 function renderArticles(filter = "all") {
   currentArticleFilter = filter;
   const articles = window.ARTICLES.filter((article) => filter === "all" || article.type === filter);
@@ -83,12 +87,14 @@ function renderArticles(filter = "all") {
   }
 
   articleGrid.innerHTML = visibleArticles
-    .map(
-      (article, index) => `
+    .map((article, index) => {
+      const image = getArticleImage(article);
+
+      return `
         <article class="article-card ${article.featured ? "featured" : ""}">
           ${
-            articleImages[article.title]
-              ? `<img class="article-image" src="${articleImages[article.title]}" alt="${article.title}" loading="lazy">`
+            image
+              ? `<img class="article-image ${article.imageFit === "contain" ? "contain-image" : ""}" src="${image}" alt="${article.title}" loading="lazy">`
               : `<div class="article-image article-placeholder" aria-hidden="true">
                   <svg><use href="#icon-chart"></use></svg>
                   <span>Finance Insight</span>
@@ -103,13 +109,15 @@ function renderArticles(filter = "all") {
           <a href="${
             article.type === "brainz"
               ? `articles/brainz-article.html?article=${encodeURIComponent(article.title)}`
+              : article.content
+                ? `articles/article.html?article=${encodeURIComponent(article.title)}`
               : article.url
           }">
             Read article
           </a>
         </article>
-      `
-    )
+      `;
+    })
     .join("");
 
   if (articleToggle) {

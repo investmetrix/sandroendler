@@ -385,6 +385,13 @@ h3 {
   background: #dceef8;
 }
 
+.article-image[src$="082526_article.png"],
+.article-image.contain-image {
+  object-fit: contain;
+  background: #f5f1e8;
+  padding: 8px;
+}
+
 .article-placeholder {
   display: grid;
   place-items: center;
