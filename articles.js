@@ -2,6 +2,50 @@ const OWNER_DEPENDENCY_IMAGE = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAq
 
 window.ARTICLES = [
   {
+    title: "Could Someone Outside Your Business Trust Your Numbers?",
+    source: "Beyond The Numbers",
+    type: "original",
+    date: "2026",
+    image: "assets/article-trust-numbers-092526.png",
+    summary:
+      "Why clear, consistent financial information helps lenders, investors, and buyers understand performance and trust the business behind the numbers.",
+    url: "articles/article.html",
+    featured: true,
+    content: [
+      { type: "p", text: "Business owners often know far more about their companies than their financial reports reveal. They know which customers are reliable, which expenses were unusual, and why a difficult month does not tell the whole story." },
+      { type: "p", text: "But a lender, investor, or potential buyer does not have that history. They must work with the information the business can provide." },
+      { type: "p", text: "That raises an important question: If someone outside your company reviewed your numbers today, would they understand what is happening—and trust what they see?" },
+      { type: "h2", text: "Financial Statements Are Only the Beginning" },
+      { type: "p", text: "Producing financial statements is an important step. Being able to explain them is another." },
+      { type: "p", text: "Suppose revenue increased this year, but cash in the bank declined. There may be a reasonable explanation: customers are taking longer to pay, the company purchased equipment, or growth required more inventory and employees. Without a clear explanation, however, an outside party sees a question that needs to be resolved." },
+      { type: "p", text: "The same applies when margins change sharply, receivables remain unpaid, or expenses move between categories from one year to the next. None of these changes automatically signals a problem. Each deserves an answer that can be supported by the records." },
+      { type: "p", text: "Reliable numbers allow an owner to move beyond reporting what happened and explain why it happened." },
+      { type: "h2", text: "Do the Numbers Tell a Consistent Story?" },
+      { type: "p", text: "Consider a business seeking financing for expansion. The owner says demand is strong and a larger facility will help the company serve more customers." },
+      { type: "p", text: "A lender may then ask: Are sales increasing consistently? Are customers paying on time? Has the company maintained its margins as sales grew? How much additional cash will the expansion require before it produces a return?" },
+      { type: "p", text: "The answers must connect. Historical financial statements, customer activity, debt obligations, and cash-flow projections should support the same business story." },
+      { type: "p", text: "When they do not, the owner may still have a sound opportunity. But the gaps make it harder for someone else to evaluate that opportunity with confidence." },
+      { type: "h2", text: "What Creates Doubt?" },
+      { type: "p", text: "Some concerns are straightforward to address when identified early. Others take time to investigate and correct." },
+      { type: "p", text: "Financial information becomes harder to rely on when reports arrive months late, bank balances are not reconciled regularly, or the owner cannot explain significant changes in results. Mixing personal and business expenses can create further confusion. So can forecasts built on ambitious sales targets without a clear view of the costs and cash required to achieve them." },
+      { type: "p", text: "For a potential buyer, these issues may lead to deeper questions about the sustainability of earnings. For a lender, they may make it harder to assess the company’s ability to repay debt." },
+      { type: "p", text: "The concern is not simply whether the business is profitable. It is whether its performance can be understood and supported." },
+      { type: "h2", text: "Look at Your Business Through an Outsider’s Eyes" },
+      { type: "p", text: "An owner can begin with a practical exercise: review the latest financial statements as if encountering the company for the first time." },
+      { type: "p", text: "Could you identify the main sources of revenue? Do you know which products, services, or customers contribute most to profit? Can you explain the largest changes from the prior year? Are receivables likely to be collected? Does reported profit make sense alongside cash flow?" },
+      { type: "p", text: "Then consider what evidence you would use to answer a follow-up question. If an explanation depends entirely on the owner’s memory, the business may need better records, more consistent reporting, or a clearer review process." },
+      { type: "p", text: "This exercise is valuable even when no financing or sale is planned. The questions an outsider would ask may reveal information the owner needs to make better decisions today." },
+      { type: "h2", text: "Build Confidence Before You Need It" },
+      { type: "p", text: "Trust in financial information develops over time. Regular reconciliations, consistent accounting practices, timely reports, and realistic forecasts help a business establish a record that can be examined and explained." },
+      { type: "p", text: "Owners should also investigate unusual results while the details are still fresh. Understanding why margins fell this month is easier than trying to reconstruct the answer a year later during a financing request or buyer review." },
+      { type: "p", text: "Clear financial information does more than satisfy an outside party. It gives the owner a stronger basis for deciding when to hire, invest, borrow, expand, or change direction." },
+      { type: "p", text: "Your knowledge of the business will always matter. The goal is to make sure your numbers can communicate that knowledge when you are not the only person making the decision." },
+      { type: "p", text: "If someone outside your company had to rely on your financial information tomorrow, what questions would they ask—and could your records answer them?" },
+      { type: "h2", text: "About the Author" },
+      { type: "p", text: "Sandro Endler, CVA, CEPA, FMVA, CBCA, is a finance and business advisory professional with more than 30 years of experience in financial management and strategy. He is the founder of InvestMetrix, author of the FACE IT! business book series, a Certified Valuation Analyst (CVA), Certified Exit Planning Advisor (CEPA), and Executive Contributor for Brainz Magazine. His work focuses on helping business owners improve financial performance, understand business value, and build stronger and more transferable companies." }
+    ]
+  },
+  {
     title: "If Your Business Cannot Operate Without You, What Is It Really Worth?",
     source: "Beyond The Numbers",
     type: "original",
@@ -11,7 +55,7 @@ window.ARTICLES = [
     summary:
       "Why owner dependency can reduce business value, increase operational risk, and limit transferability even when a company is profitable.",
     url: "articles/if-your-business-cannot-operate-without-you.html",
-    featured: true,
+    featured: false,
     content: [
       { type: "p", text: "Many business owners measure success by revenue, profitability, or the number of years the company has been operating. These indicators matter, but they do not answer an equally important question:" },
       { type: "p", text: "Can the business operate successfully without its owner?" },
