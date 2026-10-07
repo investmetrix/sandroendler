@@ -7,6 +7,7 @@ window.ARTICLES = [
     "type": "original",
     "date": "2026",
     "image": "assets/article-financeable-2026.jpg",
+    "portuguesePdf": "assets/artigo-negocio-lucrativo-financiavel-portugues.pdf",
     "summary": "Why profitable businesses can still struggle to obtain financing, and how cash flow, leverage, liquidity, and debt-service capacity shape borrowing decisions.",
     "url": "articles/article.html",
     "featured": true,

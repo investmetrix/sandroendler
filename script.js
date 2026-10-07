@@ -106,15 +106,22 @@ function renderArticles(filter = "all") {
           </div>
           <h3>${article.title}</h3>
           <p>${article.summary}</p>
-          <a href="${
-            article.type === "brainz"
-              ? `articles/brainz-article.html?article=${encodeURIComponent(article.title)}`
-              : article.content
-                ? `articles/article.html?article=${encodeURIComponent(article.title)}`
-              : article.url
-          }">
-            Read article
-          </a>
+          <div class="article-actions">
+            <a class="article-link" href="${
+              article.type === "brainz"
+                ? `articles/brainz-article.html?article=${encodeURIComponent(article.title)}`
+                : article.content
+                  ? `articles/article.html?article=${encodeURIComponent(article.title)}`
+                : article.url
+            }">
+              Read article
+            </a>
+            ${
+              article.portuguesePdf
+                ? `<a class="article-pdf-link" href="${article.portuguesePdf}" target="_blank" rel="noopener" aria-label="Read this article in Portuguese as a PDF">Português · PDF</a>`
+                : ""
+            }
+          </div>
         </article>
       `;
     })

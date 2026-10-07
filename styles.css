@@ -462,15 +462,36 @@ h3 {
   color: var(--muted);
 }
 
-.article-card a {
+.article-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
   margin-top: auto;
   padding: 0 24px 24px;
+}
+
+.article-actions a {
   color: var(--blue);
   font-weight: 900;
   text-decoration: none;
+  white-space: nowrap;
 }
 
-.article-card a::after,
+.article-link {
+  font-size: 14px;
+}
+
+.article-pdf-link {
+  border-left: 1px solid rgba(49, 91, 114, 0.28);
+  padding-left: 10px;
+  color: #9a681d !important;
+  font-size: 10px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.article-link::after,
 .text-link::after,
 footer a::after {
   content: " ->";
