@@ -2,6 +2,373 @@ const OWNER_DEPENDENCY_IMAGE = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAq
 
 window.ARTICLES = [
   {
+    "title": "Your Business Is Profitable — But Is It Financeable?",
+    "source": "Beyond The Numbers",
+    "type": "original",
+    "date": "2026",
+    "image": "assets/article-financeable-2026.jpg",
+    "summary": "Why profitable businesses can still struggle to obtain financing, and how cash flow, leverage, liquidity, and debt-service capacity shape borrowing decisions.",
+    "url": "articles/article.html",
+    "featured": true,
+    "content": [
+      {
+        "type": "p",
+        "text": "Profitability is one of the most important indicators of business performance, but it does not automatically translate into access to financing."
+      },
+      {
+        "type": "p",
+        "text": "A company can report strong revenue, positive net income, and consistent growth and still have difficulty obtaining financing. Business owners often assume that a profitable operation should naturally qualify for additional debt."
+      },
+      {
+        "type": "p",
+        "text": "The reason is straightforward: profitability and financeability are not the same thing."
+      },
+      {
+        "type": "p",
+        "text": "Profitability measures whether a business generates earnings from its operations. Financeability goes further. It considers whether the company generates sufficient and reliable cash flow to support its existing obligations and repay additional debt without creating excessive financial risk."
+      },
+      {
+        "type": "p",
+        "text": "For a business owner considering expansion, equipment purchases, acquisitions, working-capital financing, or other investments, understanding this distinction is critical."
+      },
+      {
+        "type": "h2",
+        "text": "Profit Is Only the Beginning"
+      },
+      {
+        "type": "p",
+        "text": "An income statement may show a healthy profit, but debt is not repaid with accounting profit."
+      },
+      {
+        "type": "p",
+        "text": "It is repaid with cash."
+      },
+      {
+        "type": "p",
+        "text": "A company may report significant net income while experiencing pressure on cash flow because of growing accounts receivable, inventory purchases, capital expenditures, owner distributions, existing debt payments, or other working-capital requirements."
+      },
+      {
+        "type": "p",
+        "text": "This is why profitability alone does not determine borrowing capacity."
+      },
+      {
+        "type": "p",
+        "text": "The more relevant question is:"
+      },
+      {
+        "type": "p",
+        "text": "How much cash does the business generate after considering the financial requirements necessary to operate the company and meet its existing obligations?"
+      },
+      {
+        "type": "p",
+        "text": "Only then can the business begin evaluating how much additional debt it can reasonably support."
+      },
+      {
+        "type": "h2",
+        "text": "Debt Capacity Goes Beyond Reported Earnings"
+      },
+      {
+        "type": "p",
+        "text": "One of the central considerations in commercial lending is Debt Service Coverage Ratio (DSCR). But the analysis is more nuanced than simply dividing profit by loan payments."
+      },
+      {
+        "type": "p",
+        "text": "A lender typically begins by assessing the cash flow available to service debt and then considers the company's existing and proposed obligations. Depending on the borrower and lending structure, this analysis may require adjustments for items such as depreciation and amortization, interest expense, nonrecurring expenses, owner compensation, distributions, capital expenditures, and other recurring demands on cash."
+      },
+      {
+        "type": "p",
+        "text": "Consider a company reporting strong earnings and seeking financing for an expansion. After analyzing its historical results, normalized cash flow appears sufficient to support the proposed loan with acceptable debt-service coverage."
+      },
+      {
+        "type": "p",
+        "text": "That conclusion, however, may change when the expansion itself is incorporated into the analysis."
+      },
+      {
+        "type": "p",
+        "text": "The company may require additional inventory, carry higher accounts receivable, hire employees before the associated revenue is collected, and fund capital expenditures that are not fully financed. Existing debt service continues at the same time."
+      },
+      {
+        "type": "p",
+        "text": "The relevant question is therefore not simply whether historical cash flow covers the new loan."
+      },
+      {
+        "type": "p",
+        "text": "It is whether post-transaction cash flow can support total debt service while preserving sufficient liquidity to operate the business under reasonable downside scenarios."
+      },
+      {
+        "type": "p",
+        "text": "A company can show strong EBITDA, positive net income, and even acceptable historical DSCR while still having limited borrowing capacity. Conversely, a company with modest reported earnings may present a stronger credit profile because of consistent cash generation, low leverage, adequate liquidity, and predictable working-capital requirements."
+      },
+      {
+        "type": "p",
+        "text": "Debt capacity should therefore be evaluated as part of the company's overall financial structure—not as a single ratio calculated from the income statement."
+      },
+      {
+        "type": "p",
+        "text": "DSCR is an important indicator. It is not the entire credit analysis."
+      },
+      {
+        "type": "h2",
+        "text": "The Balance Sheet Matters Too"
+      },
+      {
+        "type": "p",
+        "text": "Business owners naturally tend to focus on revenue and profit."
+      },
+      {
+        "type": "p",
+        "text": "Lenders look beyond the income statement."
+      },
+      {
+        "type": "p",
+        "text": "The balance sheet can reveal financial risks that profitability alone does not show. A company may be profitable but already highly leveraged. It may have weak working capital, limited liquidity, significant short-term obligations, aging receivables, excessive inventory, or insufficient tangible assets to support additional borrowing."
+      },
+      {
+        "type": "p",
+        "text": "Two businesses generating exactly the same profit can therefore present very different credit profiles."
+      },
+      {
+        "type": "p",
+        "text": "One may have strong liquidity, modest debt, consistent cash flow, and adequate collateral."
+      },
+      {
+        "type": "p",
+        "text": "The other may have substantial leverage, limited cash reserves, slow collections, and several existing loan obligations."
+      },
+      {
+        "type": "p",
+        "text": "Same profit. Very different financeability."
+      },
+      {
+        "type": "h2",
+        "text": "Growth Can Increase the Need for Cash"
+      },
+      {
+        "type": "p",
+        "text": "Growth is generally viewed as a sign of financial strength. However, growth can also create significant demands on cash."
+      },
+      {
+        "type": "p",
+        "text": "A company that wins new contracts or expands sales may need to hire employees, purchase materials, increase inventory, pay subcontractors, acquire equipment, or fund additional operating expenses before receiving payment from customers."
+      },
+      {
+        "type": "p",
+        "text": "Revenue may be increasing. Profitability may be improving. Yet the company's cash requirements may also be increasing."
+      },
+      {
+        "type": "p",
+        "text": "This is the working-capital effect of growth."
+      },
+      {
+        "type": "p",
+        "text": "Growth can consume cash before it produces cash."
+      },
+      {
+        "type": "p",
+        "text": "For this reason, a financing request should not simply demonstrate how much the company expects to grow. It should show how that growth will affect cash flow, working capital, and the company's ability to service additional debt."
+      },
+      {
+        "type": "h2",
+        "text": "Historical Performance Is Not Enough"
+      },
+      {
+        "type": "p",
+        "text": "Historical financial statements are important because they demonstrate how the business has performed."
+      },
+      {
+        "type": "p",
+        "text": "But financing is repaid in the future."
+      },
+      {
+        "type": "p",
+        "text": "A sound financing analysis should therefore connect historical performance with realistic financial projections."
+      },
+      {
+        "type": "p",
+        "text": "What happens if revenue growth falls short of expectations?"
+      },
+      {
+        "type": "p",
+        "text": "What happens if margins decline?"
+      },
+      {
+        "type": "p",
+        "text": "What happens if customers take longer to pay?"
+      },
+      {
+        "type": "p",
+        "text": "What happens if operating costs increase?"
+      },
+      {
+        "type": "p",
+        "text": "What happens if an expansion takes longer than expected to generate its projected return?"
+      },
+      {
+        "type": "p",
+        "text": "Financial modeling and sensitivity analysis help answer these questions."
+      },
+      {
+        "type": "p",
+        "text": "A credible forecast should not simply demonstrate that the financing works under expected conditions. It should determine whether the business can continue meeting its obligations when actual results differ from the plan."
+      },
+      {
+        "type": "h2",
+        "text": "Financial Credibility Matters"
+      },
+      {
+        "type": "p",
+        "text": "The quality of the financial information presented to a lender also matters."
+      },
+      {
+        "type": "p",
+        "text": "Incomplete financial statements, inconsistent reporting, unexplained transactions, unreconciled accounts, or projections disconnected from historical performance introduce uncertainty."
+      },
+      {
+        "type": "p",
+        "text": "And from a lender's perspective, uncertainty represents risk."
+      },
+      {
+        "type": "p",
+        "text": "Financial information does not need to be unnecessarily complex, but it should be accurate, consistent, current, and explainable."
+      },
+      {
+        "type": "p",
+        "text": "If revenue is projected to grow significantly, there should be a reasonable basis for that assumption."
+      },
+      {
+        "type": "p",
+        "text": "If margins are expected to improve, management should understand what operational changes will produce the improvement."
+      },
+      {
+        "type": "p",
+        "text": "If historical cash flow was weak, the business should be able to explain what has changed."
+      },
+      {
+        "type": "p",
+        "text": "If owner distributions have historically been significant, their future impact should also be considered."
+      },
+      {
+        "type": "p",
+        "text": "A projection becomes credible when the assumptions behind it are credible."
+      },
+      {
+        "type": "h2",
+        "text": "Think Like the Lender Before Approaching the Lender"
+      },
+      {
+        "type": "p",
+        "text": "Before asking a lender how much it is willing to provide, a business owner should understand how much debt the company can reasonably support."
+      },
+      {
+        "type": "p",
+        "text": "That analysis should address several fundamental questions:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "How much normalized cash flow does the business generate?",
+          "What are the company's existing debt obligations?",
+          "What is its debt service coverage?",
+          "How much additional debt can its cash flow support?",
+          "Is working capital sufficient?",
+          "How leveraged is the balance sheet?",
+          "What collateral may be available?",
+          "Are the financial statements accurate and current?",
+          "Are projections supported by reasonable assumptions?",
+          "What happens to debt coverage if performance is weaker than expected?"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These questions shift the focus from how much financing is available to how much financing makes economic sense for the business."
+      },
+      {
+        "type": "p",
+        "text": "That distinction matters because lender approval and prudent borrowing are not necessarily the same thing. A company may qualify for debt that leaves too little flexibility if operating performance deteriorates, working-capital needs increase, or an investment takes longer than expected to produce returns."
+      },
+      {
+        "type": "h2",
+        "text": "Borrowing Capacity Is a Management Decision"
+      },
+      {
+        "type": "p",
+        "text": "Debt can be an effective tool for growth, acquisitions, equipment investment, and working capital. But the availability of financing should not determine the amount a business chooses to borrow."
+      },
+      {
+        "type": "p",
+        "text": "Management should evaluate the proposed debt in the context of the company's cash flow, leverage, liquidity, operating volatility, and expected return on the investment being financed."
+      },
+      {
+        "type": "p",
+        "text": "That analysis may indicate that the business can comfortably support the proposed financing. It may also indicate that the transaction should be smaller, differently structured, postponed, or funded with a different mix of debt and equity."
+      },
+      {
+        "type": "p",
+        "text": "In some cases, the better decision may be to strengthen working capital, reduce existing leverage, retain additional cash, or improve operating performance before assuming new obligations."
+      },
+      {
+        "type": "p",
+        "text": "The objective is not simply to obtain financing."
+      },
+      {
+        "type": "p",
+        "text": "It is to use financing without weakening the financial position of the business."
+      },
+      {
+        "type": "h2",
+        "text": "The Bottom Line"
+      },
+      {
+        "type": "p",
+        "text": "Profitability tells us whether a business is generating earnings from its operations."
+      },
+      {
+        "type": "p",
+        "text": "Financeability asks a different question:"
+      },
+      {
+        "type": "p",
+        "text": "Can the business convert that performance into sufficient and predictable cash flow to support its financial obligations?"
+      },
+      {
+        "type": "p",
+        "text": "The two concepts are connected, but they are not interchangeable."
+      },
+      {
+        "type": "p",
+        "text": "Before pursuing financing, business owners should understand their companies from the lender's perspective—not only revenue and profit, but also cash flow, leverage, working capital, debt-service capacity, financial credibility, and downside risk."
+      },
+      {
+        "type": "p",
+        "text": "The first question should therefore not be:"
+      },
+      {
+        "type": "p",
+        "text": "“How much will the bank lend me?”"
+      },
+      {
+        "type": "p",
+        "text": "A better question is:"
+      },
+      {
+        "type": "p",
+        "text": "“How much debt can my business responsibly support?”"
+      },
+      {
+        "type": "p",
+        "text": "That question leads to a more disciplined financing decision—one based not simply on access to debt, but on the company's capacity to use that debt productively while maintaining financial flexibility."
+      },
+      {
+        "type": "h2",
+        "text": "About the Author"
+      },
+      {
+        "type": "p",
+        "text": "Sandro Endler, CVA, CEPA, FMVA, CBCA, is a finance and business advisory professional with more than 30 years of experience in financial management and strategy. He is the founder of InvestMetrix, author of the FACE IT! business book series, a Certified Valuation Analyst (CVA), and Certified Exit Planning Advisor (CEPA). His work focuses on helping business owners improve financial performance, understand business value, evaluate financing decisions, and build stronger and more transferable companies."
+      }
+    ]
+  },
+  {
     title: "Could Someone Outside Your Business Trust Your Numbers?",
     source: "Beyond The Numbers",
     type: "original",
@@ -10,7 +377,7 @@ window.ARTICLES = [
     summary:
       "Why clear, consistent financial information helps lenders, investors, and buyers understand performance and trust the business behind the numbers.",
     url: "articles/article.html",
-    featured: true,
+    featured: false,
     content: [
       { type: "p", text: "Business owners often know far more about their companies than their financial reports reveal. They know which customers are reliable, which expenses were unusual, and why a difficult month does not tell the whole story." },
       { type: "p", text: "But a lender, investor, or potential buyer does not have that history. They must work with the information the business can provide." },
