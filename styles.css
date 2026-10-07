@@ -93,6 +93,9 @@ a {
 
 .brand-photo {
   display: block;
+  flex: 0 0 57.2px;
+  width: 57.2px;
+  height: 57.2px;
   border: 2px solid rgba(255, 255, 255, 0.72);
   object-fit: cover;
   object-position: center 28%;
@@ -128,6 +131,7 @@ nav a,
 footer a {
   text-decoration: none;
 }
+
 
 nav a:hover {
   color: #ffe778;
@@ -794,6 +798,7 @@ footer p {
   nav {
     justify-content: flex-start;
   }
+
 
   .profile-card,
   .metric-grid,
