@@ -2,6 +2,239 @@ const OWNER_DEPENDENCY_IMAGE = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAq
 
 window.ARTICLES = [
   {
+    "title": "High Interest Rates: A Cause or a Consequence of Brazil’s Structural Challenges?",
+    "source": "Beyond The Numbers",
+    "type": "original",
+    "date": "2026",
+    "image": "assets/article-high-interest-rates-brazil-november-2026.png",
+    "portuguesePdf": "assets/artigo-juros-elevados-brasil-portugues-novembro-2026.pdf",
+    "summary": "Eighteen years later, many of the obstacles to Brazil’s economic growth remain unresolved.",
+    "url": "articles/article.html",
+    "featured": true,
+    "content": [
+      {
+        "type": "p",
+        "text": "I recently received an article from a friend titled “Eu Acuso: uma proposta para eliminar os juros absurdos” (“I Accuse: A Proposal to Eliminate Excessively High Interest Rates”), published by Brazilian economist André Lara Resende in September 2026."
+      },
+      {
+        "type": "p",
+        "text": "The article raises relevant questions about the impact of high interest rates on Brazil’s public debt and the consequences of maintaining elevated financing costs over time."
+      },
+      {
+        "type": "p",
+        "text": "Reading it brought me back to some of the challenges I discussed 18 years ago in a working paper examining the determinants of Brazil’s economic growth."
+      },
+      {
+        "type": "p",
+        "text": "There is no question that high interest rates contribute significantly to the accumulation of public debt. Higher borrowing costs increase the government’s interest expenditures, absorb fiscal resources, and can restrict its capacity to invest in infrastructure and other areas essential to economic development."
+      },
+      {
+        "type": "p",
+        "text": "However, I believe this issue cannot be examined independently of its historical and structural context."
+      },
+      {
+        "type": "p",
+        "text": "If lowering interest rates alone were sufficient to solve the public debt problem, the solution would be essentially mathematical. But the issue is considerably broader. It involves fiscal sustainability, economic growth potential, institutional credibility, and market expectations regarding the government’s capacity to implement structural reforms."
+      },
+      {
+        "type": "p",
+        "text": "The fundamental question, therefore, is whether high interest rates are primarily the cause of Brazil’s economic difficulties or, at least in part, a consequence of deeper structural weaknesses."
+      },
+      {
+        "type": "h2",
+        "text": "Beyond the Interest Rate Debate"
+      },
+      {
+        "type": "p",
+        "text": "Interest rates do not operate independently of the economic environment in which they are established."
+      },
+      {
+        "type": "p",
+        "text": "Monetary policy influences borrowing costs, investment decisions, consumption, and inflation. At the same time, the interest rates demanded by investors reflect expectations about fiscal sustainability, inflation, institutional stability, and the risks associated with holding government debt."
+      },
+      {
+        "type": "p",
+        "text": "This distinction is particularly important in Brazil, where fiscal uncertainty and recurring economic instability have historically influenced the cost of financing."
+      },
+      {
+        "type": "p",
+        "text": "Reducing interest rates can certainly alleviate the government’s debt-servicing burden. However, the sustainability of that reduction depends on broader economic conditions."
+      },
+      {
+        "type": "p",
+        "text": "If investors perceive that public finances remain vulnerable, that government spending is growing faster than the economy’s capacity to generate revenue, or that fiscal commitments lack credibility, the reduction in borrowing costs may prove difficult to sustain."
+      },
+      {
+        "type": "p",
+        "text": "In other words, lower interest rates can contribute to fiscal improvement, but they cannot substitute for the conditions necessary to preserve confidence in the country’s economic trajectory."
+      },
+      {
+        "type": "h2",
+        "text": "The Structural Challenges Behind Economic Growth"
+      },
+      {
+        "type": "p",
+        "text": "In my 2008 working paper, I examined factors influencing Brazil’s long-term economic growth."
+      },
+      {
+        "type": "p",
+        "text": "Looking back at that analysis, what concerns me is not simply the persistence of individual economic problems, but the apparent difficulty of addressing the institutional and structural conditions that contribute to them."
+      },
+      {
+        "type": "p",
+        "text": "Three areas remain particularly relevant."
+      },
+      {
+        "type": "p",
+        "text": "Institutions and governance. The effectiveness of public institutions, the predictability of economic policy, and the quality of governance influence investment decisions and the allocation of capital. Institutional credibility is not merely a political consideration; it has direct economic consequences."
+      },
+      {
+        "type": "p",
+        "text": "The size and efficiency of the State. The debate should not be limited to whether the government is large or small, but whether public resources are allocated efficiently and whether the institutional structure supports productivity, investment, and sustainable growth. The composition and effectiveness of public expenditure matter as much as its overall magnitude."
+      },
+      {
+        "type": "p",
+        "text": "Legal certainty and the business environment. Investors require a reasonable degree of predictability regarding contracts, regulation, taxation, and the enforcement of legal rights. Persistent uncertainty increases the risks associated with long-term investments and can raise the cost of capital."
+      },
+      {
+        "type": "p",
+        "text": "These issues are interconnected. Weak institutions can undermine fiscal discipline, inefficient public spending can limit productive investment, and legal uncertainty can discourage the private capital formation necessary for sustained economic growth."
+      },
+      {
+        "type": "p",
+        "text": "Consequently, addressing the interest rate problem without examining these underlying conditions risks concentrating the debate on an economic symptom rather than the broader environment in which it develops."
+      },
+      {
+        "type": "h2",
+        "text": "Fiscal Sustainability and the Cost of Public Debt"
+      },
+      {
+        "type": "p",
+        "text": "The relationship between interest rates and public debt is not one-directional."
+      },
+      {
+        "type": "p",
+        "text": "Higher interest rates increase debt-servicing costs and can worsen fiscal indicators. Conversely, concerns about fiscal sustainability can increase the risk premium demanded by investors, placing additional pressure on government financing costs."
+      },
+      {
+        "type": "p",
+        "text": "This interaction can create a difficult economic cycle."
+      },
+      {
+        "type": "p",
+        "text": "When investors question the long-term trajectory of public finances, they may require greater compensation for inflation uncertainty, refinancing risk, and other macroeconomic vulnerabilities. These higher financing costs can, in turn, make fiscal adjustment more challenging."
+      },
+      {
+        "type": "p",
+        "text": "The dynamics of public debt also depend on economic growth, primary fiscal balances, inflation, and the relationship between borrowing costs and the growth rate of the economy."
+      },
+      {
+        "type": "p",
+        "text": "For this reason, a sustainable solution requires more than adjusting a single economic variable."
+      },
+      {
+        "type": "p",
+        "text": "It requires a credible combination of fiscal responsibility, institutional stability, and policies capable of expanding the economy’s productive capacity."
+      },
+      {
+        "type": "h2",
+        "text": "Eighteen Years Later, the Challenges Persist"
+      },
+      {
+        "type": "p",
+        "text": "What makes this discussion particularly relevant to me is the passage of time."
+      },
+      {
+        "type": "p",
+        "text": "Eighteen years have elapsed since I completed my original analysis of Brazil’s economic growth. During this period, the country has experienced different administrations, economic policies, and attempts to address longstanding structural constraints."
+      },
+      {
+        "type": "p",
+        "text": "Yet many of the fundamental questions remain."
+      },
+      {
+        "type": "p",
+        "text": "How can Brazil improve the efficiency of its public sector? How can it strengthen legal certainty and institutional credibility? How can it create an economic environment that encourages productive investment and sustained growth?"
+      },
+      {
+        "type": "p",
+        "text": "These are not questions that can be resolved through monetary policy alone."
+      },
+      {
+        "type": "p",
+        "text": "Nor does recognizing the importance of structural reforms mean dismissing the economic consequences of excessively high interest rates."
+      },
+      {
+        "type": "p",
+        "text": "Both dimensions deserve serious consideration."
+      },
+      {
+        "type": "p",
+        "text": "The challenge is to distinguish between policies that provide immediate financial relief and reforms that address the underlying conditions affecting the country’s long-term economic performance."
+      },
+      {
+        "type": "h2",
+        "text": "Final Reflection"
+      },
+      {
+        "type": "p",
+        "text": "The debate initiated by André Lara Resende raises an important question about the economic burden imposed by high interest rates on Brazil."
+      },
+      {
+        "type": "p",
+        "text": "However, I believe the discussion must extend beyond the direct financial cost of public debt."
+      },
+      {
+        "type": "p",
+        "text": "It must also consider the fiscal, economic, and institutional fundamentals that influence investors’ risk perceptions, the cost of financing government obligations, and the country’s capacity to achieve sustainable economic growth."
+      },
+      {
+        "type": "p",
+        "text": "Reducing interest rates may be part of the solution. But without progress in fiscal sustainability, institutional efficiency, legal certainty, and productivity, the underlying vulnerabilities may remain."
+      },
+      {
+        "type": "p",
+        "text": "Eighteen years after my original working paper, my central reflection is that Brazil’s economic challenges cannot be resolved by treating their consequences without addressing their structural causes."
+      },
+      {
+        "type": "p",
+        "text": "The question is not simply how Brazil can achieve lower interest rates, but how it can establish the economic and institutional conditions that make lower interest rates sustainable."
+      },
+      {
+        "type": "p",
+        "text": "Sandro Endler"
+      },
+      {
+        "type": "p",
+        "text": "MBA, CVA, CEPA"
+      },
+      {
+        "type": "p",
+        "text": "Master’s in Economic Development – FIPE/USP, Brazil"
+      },
+      {
+        "type": "p",
+        "text": "Master’s in International Economics – University of Grenoble, France"
+      },
+      {
+        "type": "h2",
+        "text": "References"
+      },
+      {
+        "type": "p",
+        "text": "André Lara Resende (September 2026). Eu Acuso: uma proposta para eliminar os juros absurdos."
+      },
+      {
+        "type": "p",
+        "text": "https://andrelararesende.substack.com/p/eu-acuso-uma-proposta-para-eliminar"
+      },
+      {
+        "type": "p",
+        "text": "Sandro Endler (2008). Análise dos Determinantes do Crescimento Econômico no Brasil. Working Paper, FIPE/USP."
+      }
+    ]
+  },
+  {
     title: "If a Buyer Approached You Today, Would Your Business Be Ready?",
     source: "Beyond The Numbers",
     type: "original",
@@ -10,7 +243,7 @@ window.ARTICLES = [
     portuguesePdf: "assets/artigo-comprador-empresa-preparada-portugues-10162026.pdf",
     summary: "Why exit planning should begin long before an M&A transaction.",
     url: "articles/article.html",
-    featured: true,
+    featured: false,
     content: [
       { type: "p", text: "Selling a business involves more than finding a buyer and negotiating an attractive price. It requires understanding whether the company can operate successfully under new ownership and whether the transaction will deliver the financial and personal outcomes its owner expects." },
       { type: "p", text: "Yet many entrepreneurs begin considering an exit without fully understanding their company’s value, transferability, or potential risks." },
