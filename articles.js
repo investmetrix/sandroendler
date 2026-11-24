@@ -2,6 +2,217 @@ const OWNER_DEPENDENCY_IMAGE = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAq
 
 window.ARTICLES = [
   {
+    "title": "Are You Making Business Decisions Based on Facts or Intuition?",
+    "source": "Beyond The Numbers",
+    "type": "original",
+    "date": "2026",
+    "image": "assets/article-facts-or-intuition-november-2026.png",
+    "portuguesePdf": "assets/artigo-fatos-ou-intuicao-portugues-novembro-2026.pdf",
+    "summary": "Experience is an important business asset, but reliable financial information is essential for effective decision-making.",
+    "url": "articles/article.html",
+    "featured": true,
+    "content": [
+      {
+        "type": "p",
+        "text": "Business owners make decisions every day that directly affect the financial performance, growth, and long-term sustainability of their companies."
+      },
+      {
+        "type": "p",
+        "text": "Hiring employees, expanding operations, adjusting prices, acquiring equipment, and entering new markets are decisions that require more than entrepreneurial experience. They require a clear understanding of the financial position of the business and the potential consequences of each decision."
+      },
+      {
+        "type": "p",
+        "text": "However, many business owners continue to rely predominantly on intuition, personal experience, and their perception of how the business is performing."
+      },
+      {
+        "type": "p",
+        "text": "Although these elements are valuable, they should complement financial information rather than replace it."
+      },
+      {
+        "type": "h2",
+        "text": "The Difference Between Information and Perception"
+      },
+      {
+        "type": "p",
+        "text": "A business owner may perceive that the company is performing well because sales are increasing, customers are satisfied, and operations are expanding."
+      },
+      {
+        "type": "p",
+        "text": "But do these observations accurately reflect the financial condition of the business?"
+      },
+      {
+        "type": "p",
+        "text": "Increasing sales do not necessarily indicate improving profitability. A positive bank balance does not necessarily represent financial stability. A growing customer base does not guarantee that the business is generating sufficient cash to sustain its operations."
+      },
+      {
+        "type": "p",
+        "text": "Without reliable financial information, business owners may develop a perception of their companies that does not fully correspond to their economic reality."
+      },
+      {
+        "type": "p",
+        "text": "The consequences of this disconnect often become apparent when the business faces financial pressure or needs to make an important strategic decision."
+      },
+      {
+        "type": "h2",
+        "text": "Financial Information Is a Management Tool"
+      },
+      {
+        "type": "p",
+        "text": "Accounting is frequently perceived by business owners as an administrative obligation primarily associated with tax compliance."
+      },
+      {
+        "type": "p",
+        "text": "However, its value extends far beyond preparing financial statements and filing tax returns."
+      },
+      {
+        "type": "p",
+        "text": "When properly organized, interpreted, and monitored, financial information becomes an essential management tool."
+      },
+      {
+        "type": "p",
+        "text": "It allows business owners to understand:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Which products or services contribute most to profitability.",
+          "Whether operating expenses are increasing disproportionately.",
+          "How much cash the business actually generates.",
+          "Whether the company can financially support its expansion.",
+          "How current decisions may affect future financial performance."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Having access to financial information, however, is not the same as using it effectively."
+      },
+      {
+        "type": "p",
+        "text": "The real value of financial information lies in its ability to support better business decisions."
+      },
+      {
+        "type": "h2",
+        "text": "From Reactive to Proactive Management"
+      },
+      {
+        "type": "p",
+        "text": "One of the fundamental differences between reactive and proactive financial management is the timing of decisions."
+      },
+      {
+        "type": "p",
+        "text": "Reactive management addresses financial problems after they become apparent. Proactive management seeks to identify potential challenges before they materialize."
+      },
+      {
+        "type": "p",
+        "text": "A business owner who regularly monitors financial performance, prepares cash flow projections, and evaluates future financial commitments is better positioned to anticipate difficulties and identify opportunities."
+      },
+      {
+        "type": "p",
+        "text": "This does not eliminate uncertainty. Business decisions will always involve a certain degree of risk."
+      },
+      {
+        "type": "p",
+        "text": "However, reliable financial information allows that risk to be better understood, evaluated, and managed."
+      },
+      {
+        "type": "h2",
+        "text": "Scenario Planning: Preparing for Different Outcomes"
+      },
+      {
+        "type": "p",
+        "text": "Understanding past financial performance and the current financial position of a business is essential, but effective financial management must also be forward-looking."
+      },
+      {
+        "type": "p",
+        "text": "One of the most valuable practices a business owner can adopt is scenario planning: evaluating how different circumstances could affect the company's financial performance before making important decisions."
+      },
+      {
+        "type": "p",
+        "text": "What would happen if sales declined? What if operating costs increased, a major customer was lost, or a planned expansion took longer than expected to generate revenue?"
+      },
+      {
+        "type": "p",
+        "text": "Conversely, would the business have sufficient financial resources to support growth if demand exceeded expectations?"
+      },
+      {
+        "type": "p",
+        "text": "By developing and evaluating different financial scenarios — conservative, expected, and optimistic — business owners can better understand the potential consequences of their decisions, anticipate capital requirements, and establish contingency plans."
+      },
+      {
+        "type": "p",
+        "text": "The purpose of scenario planning is not to predict the future with precision. It is to prepare the business for different possible outcomes."
+      },
+      {
+        "type": "p",
+        "text": "A company that understands how alternative scenarios may affect its profitability, cash flow, and financial commitments is better positioned to respond to changing circumstances."
+      },
+      {
+        "type": "p",
+        "text": "The objective is not to eliminate uncertainty, but to avoid being financially unprepared for it."
+      },
+      {
+        "type": "h2",
+        "text": "Experience and Financial Intelligence"
+      },
+      {
+        "type": "p",
+        "text": "Entrepreneurial intuition should not be underestimated. Many successful businesses have been built by individuals with exceptional market knowledge, practical experience, and the ability to recognize opportunities."
+      },
+      {
+        "type": "p",
+        "text": "But as a business grows, its financial and operational complexity increases."
+      },
+      {
+        "type": "p",
+        "text": "Decisions that were once manageable through personal observation may require more structured analysis. The financial consequences of mistakes also become more significant."
+      },
+      {
+        "type": "p",
+        "text": "The objective is not to replace entrepreneurial judgment with financial reports, but to strengthen that judgment through reliable information and forward-looking analysis."
+      },
+      {
+        "type": "p",
+        "text": "Experience helps business owners recognize opportunities. Financial intelligence helps them evaluate whether those opportunities make economic sense and whether the business is financially prepared to pursue them."
+      },
+      {
+        "type": "h2",
+        "text": "Final Reflection"
+      },
+      {
+        "type": "p",
+        "text": "Effective financial management is not about producing more reports. It is about developing a better understanding of the business, anticipating potential challenges, and using that knowledge to make more informed decisions."
+      },
+      {
+        "type": "p",
+        "text": "Business owners should not wait until they experience cash flow difficulties, seek external financing, or consider selling their companies to recognize the importance of financial clarity."
+      },
+      {
+        "type": "p",
+        "text": "It should be an integral part of how they manage their businesses every day."
+      },
+      {
+        "type": "p",
+        "text": "Intuition may help identify an opportunity. Financial information helps evaluate it. Scenario planning helps prepare for its consequences."
+      },
+      {
+        "type": "p",
+        "text": "Ultimately, the question every business owner should ask is not simply whether they understand their business today, but whether they are financially prepared for what may happen tomorrow."
+      },
+      {
+        "type": "p",
+        "text": "Sandro Endler, MBA, CVA®, CEPA®"
+      },
+      {
+        "type": "p",
+        "text": "Business Valuation | Financial Advisory | Exit Planning"
+      },
+      {
+        "type": "p",
+        "text": "Investmetrix | www.investmetrix.com"
+      }
+    ]
+  },
+  {
     "title": "High Interest Rates: A Cause or a Consequence of Brazil’s Structural Challenges?",
     "source": "Beyond The Numbers",
     "type": "original",
